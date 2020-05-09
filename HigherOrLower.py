@@ -10,15 +10,19 @@ num2 = random.choice(numbers)
 guess = str(input('is it higher or lower?\n'))
 if num1 > int(num2):
     if guess == 'higher':
+        print('Computer chose :',num2)
         print('Sorry, you lose')
     elif guess == 'lower':
+        print('Computer chose :',num2)
         print('Congrats, you win!')
     else:
         print('Wrong input,please try again')
 elif num1 < int(num2):
     if guess == 'higher':
+        print('Computer chose :',num2)
         print('Congrats, you win!')
     elif guess == 'lower':
+        print('Computer chose :',num2)
         print('Sorry, you lose')
     else:
         print('Wrong input,please try again')
